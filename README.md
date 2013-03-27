@@ -3,6 +3,9 @@ LAB-Mo-Tester
 
 Creates a toy data model and inserts sample data so you can experiment faster on the Force.com platform.
 
+Unmanaged package for your Existing Dev Org: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IKOE
+If you don't have a free Dev Org, start by getting one here: http://developer.force.com/join.
+
 Mo Tester is designed to make it easier for devs to try things out on the Salesforce Platform 
 by providing a toy data model and light data.
 
