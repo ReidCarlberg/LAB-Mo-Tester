@@ -1,0 +1,2 @@
+<apex:page standardController="LAB_Mo_Tester_1__c" extensions="LAB_CreateDataHelper" recordSetVar="mos" action="{!createMoTester1}" >
+</apex:page>

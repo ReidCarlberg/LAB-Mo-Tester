@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>LAB_Mo_Tester_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Mo Tester 1</label>
+        <referenceTo>LAB_Mo_Tester_1__c</referenceTo>
+        <relationshipLabel>MT1 Child1s</relationshipLabel>
+        <relationshipName>MT1_Child1s</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MT1_C1_Date_1__c</fullName>
+        <externalId>false</externalId>
+        <label>MT1 C1 Date 1</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT1_C1_Number_1__c</fullName>
+        <externalId>false</externalId>
+        <label>MT1 C1 Number 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT1_C1_Picklist_1__c</fullName>
+        <externalId>false</externalId>
+        <label>MT1 C1 Picklist 1</label>
+        <picklist>
+            <picklistValues>
+                <fullName>MT1 C1 P1 One</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MT1 C1 P1 Two</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MT1 C1 P1 Three</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MT1 C1 P1 Four</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MT1_C1_Roll_Up_1_GC1_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>MT1 C1 Roll Up 1 GC1 Count</label>
+        <summaryForeignKey>LAB_MT1_Grandchild_1__c.LAB_MT1_Child_1__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT1_C1_Text_1__c</fullName>
+        <externalId>false</externalId>
+        <label>MT1 C1 Text 1</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>MT1 Child 1</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>MT1 Child 1 Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>MT1 Child1s</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>
