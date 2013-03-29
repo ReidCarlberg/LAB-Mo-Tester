@@ -163,6 +163,11 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>LAB_Mo_Tester_Docs</members>
+        <members>LAB_Mo_Tester_Docs/LAB_Mo_Tester.png</members>
+        <name>Document</name>
+    </types>
+    <types>
         <members>LAB_MT1_Child_1__c-MT1 Child 1 Layout</members>
         <members>LAB_MT1_Grandchild_1__c-MT1 Grandchild 1 Layout</members>
         <members>LAB_MT1_MT4_Junction__c-Mo Tester 3 Layout</members>

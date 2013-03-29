@@ -2,6 +2,7 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>About_Mo_Tester</defaultLandingTab>
     <label>LAB Mo Tester</label>
+    <logo>LAB_Mo_Tester_Docs/LAB_Mo_Tester.png</logo>
     <tab>About_Mo_Tester</tab>
     <tab>LAB_Mo_Tester_1__c</tab>
     <tab>LAB_MT1_Child_1__c</tab>
