@@ -38,6 +38,18 @@
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Mo Tester 2s</relationshipLabel>
+        <relationshipName>Mo_Tester_2s</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>MT2_Checkbox_1__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -226,18 +238,6 @@
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Url</type>
-    </fields>
-    <fields>
-        <fullName>Mo_Tester_1__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Mo Tester 1</label>
-        <referenceTo>LAB_Mo_Tester_1__c</referenceTo>
-        <relationshipLabel>Mo Tester 2s (Lookup)</relationshipLabel>
-        <relationshipName>Mo_Tester_2s</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <label>Mo Tester 2</label>
     <listViews>

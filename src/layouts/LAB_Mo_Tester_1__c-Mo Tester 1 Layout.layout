@@ -499,10 +499,6 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>LAB_Mo_Tester_2__c.Mo_Tester_1__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
         <relatedList>LAB_MT1_MT4_Junction__c.Mo_Tester_1__c</relatedList>
     </relatedLists>
     <relatedLists>

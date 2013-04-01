@@ -12,10 +12,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Mo_Tester_1__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>MT2_Checkbox_1__c</field>
             </layoutItems>
             <layoutItems>
@@ -81,6 +77,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>MT2_URL_1__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Account__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
