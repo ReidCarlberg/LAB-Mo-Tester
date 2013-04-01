@@ -27,10 +27,17 @@ Suggestions? Issues? [Hit the Twitter](http://twitter.com/ReidCarlberg).
 
 Basic Data Model
 ================
+
 Mo Tester 1: four of (almost) every kind of field.  One click data create from the list view.
+
 -MT1 Child 1: A MD Relationship to Mo Tester 1.  Includes Date, Number, Picklist and Text fields. 
+
 -MT1 Grandchild 1: An MD Relationship to MT Child 1.  Includes Date, Number, Picklist and Text fields. 
+
 Mo Tester 2: one of (almost) every kind of field, Look Up relationship to Account.
+
 MT1 MT4 Junction: junction object between Mo Tester 1 and Mo Tester 4. No other fields.
+
 Mo Tester 4: includes 1 each of basic fields (checkbox, text, picklist, phone)
+
 Mo Tester 5: includes 1 checkbox and 1 text field.  Mo Tester 1 has a Look Up relationship to Mo Tester 5.
