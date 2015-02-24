@@ -1,11 +1,15 @@
 LAB-Mo-Tester
 =============
 
-Creates a toy data model and inserts sample data so you can experiment faster on the Force.com platform.
+Creates a simple Lightning Components, a toy data model and inserts sample data so you can experiment faster on the Force.com platform and with Lightning Components.
 
-[Unmanaged package for your Existing Dev Org](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IKOJ)
+This is not an app. This is more like lab equipment.  Questions? Suggestions? Issues? Hit the Twitter [@ReidCarlberg](http://twitter.com/ReidCarlberg).
 
-If you don't have a free Dev Org, [start by getting one here](http://developer.force.com/join).
+[Unmanaged package for your Existing Dev Org](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IdCp).  Here's the [Original Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IKOJ) in case you need it.
+
+If you don't have a free Dev Org, [start by getting one here](http://developer.salesforce.com/signup).
+
+**Note: The new version requires that you enable Lightning Components.  You might enjoy [Salesforce Lightning Component Newbie Notes](http://reidcarlberg.github.io/lightning-newbie) as well.**
 
 Mo Tester is designed to make it easier for devs to try things out on the Salesforce Platform 
 by providing a toy data model and light data.
@@ -21,9 +25,7 @@ Thanks also to [Matthew Botos](http://twitter.com/BotosCloud) for the stupendous
 
 Did you find this helpful? Please tell a friend about it.
 
-Suggestions? Issues? [Hit the Twitter](http://twitter.com/ReidCarlberg).
-
-[Blog where I announced it.](http://blogs.developerforce.com/developer-relations/2013/03/experiment-faster-on-force-com.html)
+[Blog where I originally announced it.](http://blogs.developerforce.com/developer-relations/2013/03/experiment-faster-on-force-com.html)
 
 Basic Data Model
 ================
@@ -41,3 +43,14 @@ MT1 MT4 Junction: junction object between Mo Tester 1 and Mo Tester 4. No other 
 Mo Tester 4: includes 1 each of basic fields (checkbox, text, picklist, phone)
 
 Mo Tester 5: includes 1 checkbox and 1 text field.  Mo Tester 1 has a Look Up relationship to Mo Tester 5.
+
+Screenshots
+===========
+
+If you get this error, you haven't enabled Lightning Components in your org.
+
+![Error](mo-tester-requires-lightning.png)
+
+The Mo Tester Lightning page looks like this
+
+![Success](mo-tester-2015-feb24.png)
