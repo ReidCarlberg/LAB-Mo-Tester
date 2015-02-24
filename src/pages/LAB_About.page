@@ -1,16 +1,45 @@
 <apex:page controller="LAB_CreateDataHelper" >
 
-    <apex:pageBlock title="Special Note">
-        <p>DO NOT INSTALL THIS IN A PRODUCTION ORG.</p>
-        <p>Seriously.  <a href="http://developer.force.com/join">Just go get a Dev Org</a>.  They're fast free and easy.</p>
+        
+
+    <apex:form >
+    <apex:pageBlock title="Things You Might Want to Do">
+        <a href="http://reidcarlberg.github.io/lightning-newbie/hello-salesforce1.html#motester"><img src="http://reidcarlberg.github.io/lightning-newbie/images/motester-feb24.png" width="100px" align="right" /></a>
+        <p>
+            Last Update: February 24, 2015 to include some Lightning Components and a Salesforce1 Ready Lightning Tab.
+            You might enjoy <a href="http://reidcarlberg.github.io/lightning-newbie">Salesforce Lightning Components Newbie Notes</a>.
+        </p>
+        
+        <p>
+            These are available as Lightning Components for your enjoyment as well.
+        </p>
+        <p>
+            <strong>Simply add the Lightning Tab "Mo Tester Lightning" to your mobile navigation and enjoy. <a href="http://reidcarlberg.github.io/lightning-newbie/hello-salesforce1.html#salesforce1">Example</a></strong>.
+        </p>
+        
+        <p><apex:commandButton value="Insert a Single Mo Tester & View It" action="{!createMoTester1}" /></p>        
+        <p><apex:commandButton value="Insert 50 Simple MT1 Records" action="{!createManyMoTester1}" /></p>
+        <p><apex:commandButton value="Insert 3 MT1 with 3 MT C1 with 3 MTGC1 Each" action="{!create3MT1WithChildrenAndGrandChildren}" /></p>
+		<p><apex:commandButton value="Delete All Mo Tester1 Records & Children (Immediate)" action="{!deleteAll}" /></p>
+    </apex:pageBlock>
+    </apex:form>  
+        
+    
+    <apex:pageBlock title="Mo Tester Stock Configuration">
+        <p>Mo Tester 1: four of (almost) every kind of field.  One click data create from the list view.</p>
+        <p>-MT1 Child 1: A MD Relationship to Mo Tester 1.  Includes Date, Number, Picklist and Text fields. </p>
+        <p>-MT1 Grandchild 1: An MD Relationship to MT Child 1.  Includes Date, Number, Picklist and Text fields. </p>
+        <p>Mo Tester 2: one of (almost) every kind of field, Look Up relationship to Account.</p>
+        <p>MT1 MT4 Junction: junction object between Mo Tester 1 and Mo Tester 4. No other fields.</p>
+        <p>Mo Tester 4: includes 1 each of basic fields (checkbox, text, picklist, phone)</p>
+        <p>Mo Tester 5: includes 1 checkbox and 1 text field.  Mo Tester 1 has a Look Up relationship to Mo Tester 5.</p>
     </apex:pageBlock>
     
     <apex:pageBlock title="About Mo Tester">
         <p>Mo Tester is designed to make it easier for devs to try things out 
             on the Salesforce Platform by providing a toy data model and light data.</p>
         <p>Mo Tester was inspired by Steve Molis's comments on the 
-            <a href="http://buttonclickadmin.com/steve-molis-on-the-answers-community/">Button 
-                Click Admin podcast</a>.  
+			Button Click Admin podcast (the episode is no longer available).  
             When asked how he tested things so quickly, he described a <a href="http://developer.force.com/join">basic dev org</a>
             pre-configured with an object with four of every kind of field.  
             I smacked myself in the head and said we should all have one of those!</p>
@@ -25,25 +54,7 @@
             code.</p>
         <p>Did you find this helpful? Please tell a friend about it.</p>
         <p>Suggestions? Issues? <a href="http://twitter.com/ReidCarlberg">Hit the Twitter</a>.</p>
-    </apex:pageBlock>
-    
-    <apex:pageBlock title="Mo Tester Stock Configuration">
-        <p>Mo Tester 1: four of (almost) every kind of field.  One click data create from the list view.</p>
-        <p>-MT1 Child 1: A MD Relationship to Mo Tester 1.  Includes Date, Number, Picklist and Text fields. </p>
-        <p>-MT1 Grandchild 1: An MD Relationship to MT Child 1.  Includes Date, Number, Picklist and Text fields. </p>
-        <p>Mo Tester 2: one of (almost) every kind of field, Look Up relationship to Account.</p>
-        <p>MT1 MT4 Junction: junction object between Mo Tester 1 and Mo Tester 4. No other fields.</p>
-        <p>Mo Tester 4: includes 1 each of basic fields (checkbox, text, picklist, phone)</p>
-        <p>Mo Tester 5: includes 1 checkbox and 1 text field.  Mo Tester 1 has a Look Up relationship to Mo Tester 5.</p>
-    </apex:pageBlock>
-    
-    <apex:form >
-    <apex:pageBlock title="Things You Might Want to Do">
-        <p><apex:commandButton value="Insert 50 Simple MT1 Records" action="{!createManyMoTester1}" /></p>
-        <p><apex:commandButton value="Insert 3 MT1 with 3 MT C1 with 3 MTGC1 Each" action="{!create3MT1WithChildrenAndGrandChildren}" /></p>
-		<p><apex:commandButton value="Delete All Mo Tester1 Records & Children (Immediate)" action="{!deleteAll}" /></p>
-    </apex:pageBlock>
-    </apex:form>
+    </apex:pageBlock>    
         
     
     

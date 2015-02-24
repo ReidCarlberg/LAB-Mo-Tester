@@ -1,10 +1,23 @@
 @isTest
 public class LAB_CreateDataHelperTest{
     
+    static testmethod void testConstructorStandardController() {
+        LAB_Mo_Tester_1__c sample = new LAB_Mo_Tester_1__c();
+        ApexPages.StandardController sc = new ApexPages.StandardController(sample);
+        LAB_CreateDataHelper helper = new LAB_CreateDataHelper(sc);
+        System.assertNotEquals(null, helper.moTester1);
+    }
+
+    static testmethod void testConstructorSetController() {
+        List<LAB_Mo_Tester_1__c> mos = new List<LAB_Mo_Tester_1__c>();
+        ApexPages.StandardSetController ssc = new ApexPages.StandardSetController(mos);
+        LAB_CreateDataHelper helper = new LAB_CreateDataHelper(ssc);
+        System.assertNotEquals(null, helper); //pretty meaningless
+    }
+
     static testmethod void testCreateMoTester1() {
         LAB_CreateDataHelper helper = new LAB_CreateDataHelper();
         helper.createMoTester1();
-        
         Integer counter = [Select Count() from LAB_Mo_Tester_1__c LIMIT 100];
         System.assert(counter == 1, counter);
     }

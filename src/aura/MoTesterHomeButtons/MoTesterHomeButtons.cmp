@@ -1,0 +1,13 @@
+<aura:component >
+
+    
+        <ui:button label="Mo Tester 1" press="{!c.navHomeOne}" />
+        
+        <ui:button label="Mo Tester 2" press="{!c.navHomeTwo}" />
+        
+        <ui:button label="Mo Tester 4" press="{!c.navHomeFour}" />
+        
+        <ui:button label="Mo Tester 5" press="{!c.navHomeFive}" />
+
+    
+</aura:component>

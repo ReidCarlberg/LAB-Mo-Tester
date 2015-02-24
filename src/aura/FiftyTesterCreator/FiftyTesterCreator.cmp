@@ -1,0 +1,3 @@
+<aura:component controller="LAB_CreateDataHelper">
+	<ui:button label="Create 50 Mo Tester 1s" press="{!c.createFiftyRecords}" />
+</aura:component>

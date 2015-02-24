@@ -1,0 +1,3 @@
+<aura:component controller="LAB_CreateDataHelper">
+    <ui:button label="Delete Mo Tester 1 Records" press="{!c.deleteMoTesterOneRecords}" />
+</aura:component>

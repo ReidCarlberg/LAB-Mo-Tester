@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>LAB Mo Tester</fullName>
-    <description>This package is designed to help you create a pre-configured dev org with a toy data model and light sample data.  DO NOT INSTALL INTO A REGULAR PRODUCTION ORG.  If you need a free Dev Org, just go get one at http://developer.force.com/join.</description>
+    <description>This package is installs a toy data model, simple Lightning Components and enough Apex to create sample records. You must enable Lightning Components in your org before you install this package. It is designed for use only with a Developer Edition. Get your free Developer Edition at http://developer.salesforce.com/signup.</description>
     <types>
         <members>LAB_CreateDataHelper</members>
         <members>LAB_CreateDataHelperTest</members>
@@ -16,6 +16,17 @@
         <members>LAB_MoTester1_Helper_CreateSingle</members>
         <members>LAB_MoTester1_Helper_DeleteAll</members>
         <name>ApexPage</name>
+    </types>
+    <types>
+        <members>CreateAndViewSingleMoTester</members>
+        <members>DeleteMoTester1Records</members>
+        <members>FiftyTesterCreator</members>
+        <members>GenerationsCreator</members>
+        <members>MoTester</members>
+        <members>MoTesterDataHelper</members>
+        <members>MoTesterHomeButtons</members>
+        <members>SingleTesterCreator</members>
+        <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>Mo_Tester</members>
@@ -160,6 +171,7 @@
         <members>LAB_Mo_Tester_2__c</members>
         <members>LAB_Mo_Tester_4__c</members>
         <members>LAB_Mo_Tester_5__c</members>
+        <members>Mo_Tester_Lightning</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -193,5 +205,5 @@
         <members>LAB_Mo_Tester_1__c.LAB_Create_Single_Sample</members>
         <name>WebLink</name>
     </types>
-    <version>25.0</version>
+    <version>33.0</version>
 </Package>

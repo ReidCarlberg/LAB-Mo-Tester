@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable">
+	<aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+	<aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>    
+
+	<h2>Mo Tester Lightning</h2>
+    
+    <center><ui:spinner aura:id="spinner" isVisible="false" /></center>
+    
+    <p><c:SingleTesterCreator />
+    
+    <c:CreateAndViewSingleMoTester />    
+    
+    <c:FiftyTesterCreator />
+    
+    <c:GenerationsCreator />
+    
+        <c:DeleteMoTester1Records /></p>
+    
+    <h2>Mo Tester Homes (S1!)</h2>
+    
+    <p><c:MoTesterHomeButtons /></p>
+
+    <h2>A Toast!</h2>
+    
+    <p><ui:button label="Show Toaster (S1!)" press="{!c.showToast}" /></p>
+    
+    
+</aura:component>
