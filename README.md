@@ -1,11 +1,16 @@
 LAB-Mo-Tester
 =============
 
-Creates a simple Lightning Components, a toy data model and inserts sample data so you can experiment faster on the Force.com platform and with Lightning Components.
+Creates a a toy data model and inserts sample data so you can experiment faster on the Force.com platform. Now includes:
 
-This is not an app. This is more like lab equipment.  Questions? Suggestions? Issues? Hit the Twitter [@ReidCarlberg](http://twitter.com/ReidCarlberg).
+* Simple Lightning Components
+* A pre-configured Lightning Component Tab for your mobile navigation
+* A simple Lightning Process that inserts Chatter posts immediately and an hour later.
+* A Lightning Connect external data source under the LAB Mo External Data app.
 
-[Unmanaged package for your Existing Dev Org](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IdCp).  Here's the [Original Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IKOJ) in case you need it.
+This is not an app. This is more like lab equipment for your [developer edition](https://developer.salesforce.com/signup).  Questions? Suggestions? Issues? Hit the Twitter [@ReidCarlberg](http://twitter.com/ReidCarlberg).
+
+[Unmanaged package for your Existing Dev Org](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IdF5).  
 
 If you don't have a free Dev Org, [start by getting one here](http://developer.salesforce.com/signup).
 
