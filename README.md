@@ -3,7 +3,7 @@ LAB-Mo-Tester
 
 [Unmanaged package for your developer edition](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tE0000000IdF5).
 
-Creates a a toy data model and inserts sample data so you can experiment faster on the Force.com platform. Now includes:
+Creates a toy data model and inserts sample data so you can experiment faster on the Force.com platform. Now includes:
 
 * Simple Lightning Components
 * A pre-configured Lightning Component Tab for your mobile navigation
