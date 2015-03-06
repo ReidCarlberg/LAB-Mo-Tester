@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>LAB Mo Tester</fullName>
-    <description>This package is installs a toy data model, simple Lightning Components and enough Apex to create sample records. You must enable Lightning Components in your org before you install this package. It is designed for use only with a Developer Edition. Get your free Developer Edition at http://developer.salesforce.com/signup.</description>
+    <description>This package is installs a toy data model, simple Lightning Components, a Lightning Connect Example, a Lightning Process Builder Example and enough Apex to create sample records. You must enable Lightning Components in your org before you install this package. It is designed for use only with a Developer Edition. Get your free Developer Edition at http://developer.salesforce.com/signup.</description>
     <types>
         <members>LAB_CreateDataHelper</members>
         <members>LAB_CreateDataHelperTest</members>
@@ -29,6 +29,7 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>LAB_Mo_External_Data</members>
         <members>Mo_Tester</members>
         <name>CustomApplication</name>
     </types>
@@ -150,6 +151,15 @@
         <members>LAB_Mo_Tester_4__c.MT4_Text_1__c</members>
         <members>LAB_Mo_Tester_5__c.MT5_Checkbox_1__c</members>
         <members>LAB_Mo_Tester_5__c.MT5_Text_1__c</members>
+        <members>OrderDetails__x.orderID__c</members>
+        <members>OrderDetails__x.orderLine__c</members>
+        <members>OrderDetails__x.product__c</members>
+        <members>OrderDetails__x.quantity__c</members>
+        <members>OrderDetails__x.unitPrice__c</members>
+        <members>Orders__x.customerID__c</members>
+        <members>Orders__x.orderDate__c</members>
+        <members>Orders__x.orderID__c</members>
+        <members>Orders__x.shippedDate__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -160,6 +170,8 @@
         <members>LAB_Mo_Tester_2__c</members>
         <members>LAB_Mo_Tester_4__c</members>
         <members>LAB_Mo_Tester_5__c</members>
+        <members>OrderDetails__x</members>
+        <members>Orders__x</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -172,12 +184,22 @@
         <members>LAB_Mo_Tester_4__c</members>
         <members>LAB_Mo_Tester_5__c</members>
         <members>Mo_Tester_Lightning</members>
+        <members>OrderDetails__x</members>
+        <members>Orders__x</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>LAB_Mo_Tester_Docs</members>
         <members>LAB_Mo_Tester_Docs/LAB_Mo_Tester.png</members>
         <name>Document</name>
+    </types>
+    <types>
+        <members>Demo_Data_Source</members>
+        <name>ExternalDataSource</name>
+    </types>
+    <types>
+        <members>Mo_Tester_1_Process-2</members>
+        <name>Flow</name>
     </types>
     <types>
         <members>LAB_MT1_Child_1__c-MT1 Child 1 Layout</members>
@@ -187,6 +209,8 @@
         <members>LAB_Mo_Tester_2__c-Mo Tester 2 Layout</members>
         <members>LAB_Mo_Tester_4__c-Mo Tester 4 Layout</members>
         <members>LAB_Mo_Tester_5__c-Mo Tester 5 Layout</members>
+        <members>OrderDetails__x-OrderDetails Layout</members>
+        <members>Orders__x-Orders Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -197,6 +221,8 @@
         <members>LAB_Mo_Tester_2__c.All</members>
         <members>LAB_Mo_Tester_4__c.All</members>
         <members>LAB_Mo_Tester_5__c.All</members>
+        <members>OrderDetails__x.All</members>
+        <members>Orders__x.All</members>
         <name>ListView</name>
     </types>
     <types>

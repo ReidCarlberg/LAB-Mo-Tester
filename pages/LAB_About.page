@@ -6,7 +6,13 @@
     <apex:pageBlock title="Things You Might Want to Do">
         <a href="http://reidcarlberg.github.io/lightning-newbie/hello-salesforce1.html#motester"><img src="http://reidcarlberg.github.io/lightning-newbie/images/motester-feb24.png" width="100px" align="right" /></a>
         <p>
-            Last Update: February 24, 2015 to include some Lightning Components and a Salesforce1 Ready Lightning Tab.
+            Last Update: March 6, 2015.  
+           	<ul>
+                <li>Checkout the LAB Mo External Data app for a Lightning Connect example</li>
+				<li>Create a new Mo Tester 1 with "Chatter" in the name to see Lightning Process Builder example (Record's feed, immediate)</li>
+                <li>Create a new Mo Tester 1 with "Later" in the name to see a Scheduled Process Builder example (User's feed, takes 1 hour)</li>
+                <li>For fun, do these in your Salesforce1 app.</li>
+        </ul>
             You might enjoy <a href="http://reidcarlberg.github.io/lightning-newbie">Salesforce Lightning Components Newbie Notes</a>.
         </p>
         

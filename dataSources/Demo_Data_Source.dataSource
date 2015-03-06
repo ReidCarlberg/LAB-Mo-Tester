@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalDataSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customConfiguration>{&quot;noIdMapping&quot;:&quot;false&quot;,&quot;searchFunc&quot;:&quot;&quot;,&quot;searchEnabled&quot;:&quot;true&quot;,&quot;format&quot;:&quot;ATOM&quot;,&quot;requestCompression&quot;:&quot;false&quot;,&quot;timeout&quot;:&quot;120&quot;}</customConfiguration>
+    <endpoint>https://orderdb.herokuapp.com/orders.svc/</endpoint>
+    <label>Demo Data Source</label>
+    <principalType>Anonymous</principalType>
+    <protocol>NoAuthentication</protocol>
+    <type>OData</type>
+</ExternalDataSource>
